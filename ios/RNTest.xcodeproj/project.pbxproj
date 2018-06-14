@@ -694,7 +694,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = T4XN8BDKE5;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1209,8 +1209,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = T4XN8BDKE5;
@@ -1223,7 +1223,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.citiesocial.iosapp;
 				PRODUCT_NAME = RNTest;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "a90baa3f-e9aa-488c-b88b-69d71e260a1d";
+				PROVISIONING_PROFILE_SPECIFIER = iOS_Dis_20180416;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1232,8 +1233,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T4XN8BDKE5;
 				INFOPLIST_FILE = RNTest/Info.plist;
@@ -1245,7 +1246,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.citiesocial.iosapp;
 				PRODUCT_NAME = RNTest;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "a90baa3f-e9aa-488c-b88b-69d71e260a1d";
+				PROVISIONING_PROFILE_SPECIFIER = iOS_Dis_20180416;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
